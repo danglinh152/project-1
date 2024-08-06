@@ -681,6 +681,7 @@ header.header {
 .footer-2 {
     margin-top: 81px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
