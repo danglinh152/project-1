@@ -12,7 +12,6 @@ html {
 }
 
 body {
-    height: 5000px;
     font-size: 1.6rem;
     font-family: "Poppins";
 }
@@ -45,6 +44,12 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 
 /* header */
