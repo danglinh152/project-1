@@ -200,7 +200,7 @@ header.header {
 
 .instruction {
     margin-top: 40px;
-    padding: 79px 378px;
+    padding: 93px 0 79px;
 }
 
 
@@ -255,27 +255,27 @@ header.header {
     /* 110% */
 }
 
-.list-guides {
+.instruction .list-guides {
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
 
-.list-guides .list-item {
+.instruction .list-guides .list-item {
     margin: 0 70px;
     text-align: center;
 }
 
-.img-guides {
+.instruction .img-guides {
     margin-bottom: 26px;
 }
 
 
-.arrow-img {
+.instruction .arrow-img {
     margin-left: 6px;
 }
 
-.list-item .link {
+.instruction .list-item .link {
     display: inline-block;
     margin-top: 10px;
     font-weight: 600;
@@ -285,6 +285,22 @@ header.header {
 
 .list-item .arrow {
     margin-left: 6px;
+}
+
+.btn-inst {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 48px;
+    border-radius: 12px;
+    background: #0F1B4C;
+    width: 170px;
+    height: 50px;
 }
 
 /* ================ FEATURES =================== */
@@ -631,12 +647,12 @@ header.header {
     width: 257px;
 }
 
-.footer .social-icon{
+.footer .social-icon {
     margin-top: 40px;
 }
 
 .footer .menu .desc,
-.footer .menu .list-item {
+.footer .menu .link {
     color: #7A7A7E;
     font-size: 1.6rem;
     font-style: normal;
