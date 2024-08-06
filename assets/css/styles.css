@@ -635,9 +635,8 @@ header.header {
 
 .footer .menu {
     display: flex;
-    justify-content: space-between;
+    gap: 185px;
 }
-
 .footer .menu .heading {
     color: #1C1C1D;
     font-family: Lato;
@@ -663,6 +662,10 @@ header.header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.footer .menu .link{
+    white-space: nowrap;
 }
 
 .footer .menu .list-item {
