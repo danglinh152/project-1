@@ -1,5 +1,5 @@
 /* PC */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1336px) {
     .mobile-header {
         display: none;
     }
@@ -10,7 +10,7 @@
 }
 
 /* tablet and mobile */
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1336.98px) {
     .navbar ul {
         display: none;
     }
