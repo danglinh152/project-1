@@ -51,11 +51,11 @@ a {
     overflow: hidden;
 }
 
-.separate{
+.separate {
     position: relative;
 }
 
-.separate::before{
+.separate::before {
     position: absolute;
     top: -1px;
     left: 0;
@@ -176,7 +176,7 @@ a {
 
 .client {
     margin-top: 79px;
-    padding: 43px 165px 41px;
+    padding: 43px 0 64px;
 }
 
 
@@ -201,8 +201,16 @@ a {
 .brand {
     margin-top: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.brand a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
 }
 
 
@@ -334,7 +342,7 @@ a {
 .featured {
     background: #F5FAFE;
     margin-top: 41px;
-    padding: 110px 165px;
+    padding: 110px 0;
 }
 
 .featured .sub-title {
@@ -372,7 +380,9 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     margin-top: 68px;
     gap: 30px;
@@ -650,13 +660,14 @@ a {
 /* FOOTER */
 .footer {
     margin-top: 55px;
-    padding: 50px 165px 58px;
+    padding: 50px 0 58px;
 }
 
 
 .footer .menu {
-    display: flex;
-    gap: 185px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 185px;
 }
 
 .footer .menu .heading {
