@@ -226,6 +226,7 @@
 
     .footer .menu {
         grid-template-columns: 1fr;
+        row-gap: 20px;
     }
 
     .footer-2 .copyright {
@@ -235,7 +236,39 @@
     .subscription .info {
         width: 100%;
         padding: 0 15px;
-        text-align: center;
+        text-align: left;
     }
 
+    .subscription .info a{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .featured .sub-title {
+        font-size: 3rem;
+    }
+
+    .featured .row .desc {
+        font-size: 1.4rem;
+    }
+
+    .featured .row .link {
+        font-size: 1.6rem;
+    }
+
+    .btn-inst {
+        width: 160px;
+    }
+
+    .stat .row-2 {
+        margin-left: 0;
+    }
+
+    .footer .menu .list-item{
+        margin-top: 25px;
+    }
+
+    .instruction .arrow-img{
+        margin-left: 0;
+    }
 }
