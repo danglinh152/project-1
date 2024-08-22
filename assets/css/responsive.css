@@ -179,4 +179,10 @@
     .fixed-header .action {
         display: none;
     }
+
+    .stat .row-2{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
 }
