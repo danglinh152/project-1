@@ -213,6 +213,10 @@ a {
     border-radius: 12px;
 }
 
+.client .desc-rate{
+    text-align: right;
+}
+
 
 /* ===================== INSTRUCTION ======================= */
 

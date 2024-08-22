@@ -11,6 +11,10 @@
 
 /* tablet and mobile */
 @media screen and (max-width: 1336.98px) {
+    .hero {
+        padding-top: 0;
+    }
+
     .navbar ul {
         display: none;
     }
@@ -171,6 +175,25 @@
 
 /* mobile */
 @media screen and (max-width: 766.98px) {
+
+    .hero .title {
+        font-size: 3rem;
+    }
+
+    .hero .sub-title {
+        font-size: 1.5rem;
+    }
+
+    .hero .desc {
+        font-size: 1.2rem;
+    }
+
+    .hero-cta {
+        min-width: 155px;
+        line-height: 1;
+        font-size: 1.2rem;
+    }
+
     .menu-drawer {
         padding: 30px 14px 60px;
         inset: 0 25% 0 0;
@@ -193,7 +216,7 @@
         width: 80%;
     }
 
-    .stat .trending{
+    .stat .trending {
         width: 60%;
     }
 
@@ -201,7 +224,18 @@
         grid-template-columns: 1fr;
     }
 
-    .footer .menu{
+    .footer .menu {
         grid-template-columns: 1fr;
     }
+
+    .footer-2 .copyright {
+        font-size: 1rem;
+    }
+
+    .subscription .info {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
 }
